@@ -91,7 +91,7 @@ int main()
         tree.Insert(val);
     }
 
-    cout << "Drzewo przed sortowaniem (in-order): ";
+    cout << "Drzewo przed sortowaniem (in-order): "; // W rzeczywistosci tego testu zbior od razu przed sortowaniem jest posortowane bo konstruowanie drzewa binarnego od razu zapewnia uporządkowanie
     tree.PrintTree();
 
     Tree sorted = tree.SortTree();
